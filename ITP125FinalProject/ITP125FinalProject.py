@@ -28,7 +28,7 @@ class pwdGenerator:
 # fileName is the file containing password MD5 hashes
 class pwdCracker:
     def __init__(self):
-        self.charset = [char for char in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@"]
+        self.charset = [char for char in "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@"]
         self.listofHashes = []
 
     #helper function to crack the password. Will try to crack password represnted by hashVal
