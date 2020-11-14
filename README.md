@@ -9,7 +9,7 @@ libraries used: hashlib, time, itertools
 
 Analysis:
 Apparently the longer the password is, the longer it takes to crack the passwords
-The first three passwords are easy to crack. the fourth one took like 2 minutes, and the fifth one took approximately 2 hours to crack
+The first three passwords are easy to crack. the fourth one took like 2 minutes, and the fifth one took approximately 200 seconds to crack
 Performance in screenshot included
 
 Yes there is a way that I can make the code faster. I can utiliza multiprocessing in the code.
